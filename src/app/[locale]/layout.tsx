@@ -1,6 +1,5 @@
 import "@/styles/global.css";
 
-import { Button } from "flowbite-react";
 import type { Metadata } from "next";
 import { Figtree } from "next/font/google";
 import { notFound } from "next/navigation";
@@ -56,7 +55,6 @@ export default function RootLayout(props: {
                     locale={props.params.locale}
                     messages={messages}
                 >
-                    <Button>Hello!</Button>
                     {props.children}
                 </NextIntlClientProvider>
             </body>

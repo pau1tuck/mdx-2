@@ -1,6 +1,6 @@
 #!/bin/bash
 
-datetime=$(date "+%Y-%m-%d %H:%M (%Z)")
+datetime=$(date "+%d-%m-%Y %H:%M (UTC%Z)")
 
 # Prompt for a custom commit message
 read -p "Commit message: " user_commit_msg
